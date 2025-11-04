@@ -4,5 +4,9 @@
   "version": "1.0.1",
   "publishConfig": {
     "access": "public"
+  },
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=3.4.0"
   }
 }
