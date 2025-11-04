@@ -33,4 +33,4 @@ jobs:
           yarn config set npmAuthToken "${NODE_AUTH_TOKEN}"
 
       - name: Publish to NPM
-        run: yarn publish --non-interactive
+        run: yarn npm publish --access public --non-interactive
