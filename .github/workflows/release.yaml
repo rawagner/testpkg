@@ -32,5 +32,8 @@ jobs:
         run: |
           yarn config set npmAuthToken "${NODE_AUTH_TOKEN}"
 
+      - name: Who am I on npm
+        run: yarn npm whoami || echo "not logged in"
+
       - name: Publish to NPM
         run: yarn npm publish --access public
