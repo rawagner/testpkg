@@ -8,5 +8,6 @@
   "engines": {
     "node": ">=14",
     "yarn": ">=3.4.0"
-  }
+  },
+  "packageManager": "yarn@4.10.3"
 }
